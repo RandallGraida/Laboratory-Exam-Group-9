@@ -28,7 +28,7 @@ public:
             double temperatureInput;
             std::cout << "  Enter temperature #" << (temperatureCount + 1) << ": ";
             while (!(std::cin >> temperatureInput)) {
-                std::cout << "    Invalid. Enter a numeric temperature: ";
+                std::cout << " Invalid. Enter a numeric temperature: ";
                 std::cin.clear();
                 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             }
@@ -124,6 +124,7 @@ private:
 // Main program: processes consecutive days until user signals to finish 
 int main() {
     std::cout << "C++ Group 9 temperature identifier\n";
+    std::cout << "Members: Alojado, Graida, Mendoza";
 
     while (true) {
         TemperatureDay currentDayTemperatures;
