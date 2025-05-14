@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <limits>     
-#include <algorithm>  
+#include <limits>       
 
 // Used class for more efficient code structure
 class TemperatureDay {
