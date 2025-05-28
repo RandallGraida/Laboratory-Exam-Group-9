@@ -32,7 +32,7 @@ public:
     // count how many fruits
     std::cout << "Number of fruits: " << fruitsArray.size() << std::endl;
 
-    // 4. Remove specific fruit in the list
+    // remove the fruit you want in the list 
     std::string toRemove;
     std::cout << "Enter fruit to remove: (Name of the fruit)";
     std::cin >> toRemove;
@@ -41,7 +41,7 @@ public:
       fruitsArray.end()
     );
 
-    // Output results
+    // Output results 
     std::cout << "Sorted fruits: ";
     for (const auto& f : fruitsArray) {
       std::cout << f << " ";
